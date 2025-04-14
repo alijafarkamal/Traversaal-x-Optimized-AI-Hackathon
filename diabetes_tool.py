@@ -2,9 +2,19 @@ from agentpro.agentpro.tools.base import Tool
 import joblib
 import pandas as pd
 import numpy as np
+from typing import Optional, Any
 
 class DiabetesPredictionTool(Tool):
-    def __init__(self):
+    # Declare fields as optional with default None
+    impute_means: Optional[dict] = None
+    scaler: Optional[Any] = None
+    model: Optional[Any] = None
+    feature_names: Optional[list] = None
+    columns_to_impute: Optional[list] = None
+
+    def __init__(self, **data):
+        super().__init__(**data)  # Initialize base class with name, description, arg
+        # Set internal attributes
         self.impute_means = joblib.load('impute_means.pkl')
         self.scaler = joblib.load('scaler.pkl')
         self.model = joblib.load('model.pkl')
