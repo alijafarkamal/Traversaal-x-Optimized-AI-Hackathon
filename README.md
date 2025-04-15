@@ -5,6 +5,15 @@ DiabetesPredictAI is a proof-of-concept **agentic AI system** designed to assess
 
 ---
 
+## Our Team:
+
+| <img src="https://github.com/alijafarkamal.png" width="100"/> | <img src="https://github.com/zohaib-7035.png" width="100"/> | <img src="https://github.com/Noor-Fatima-Afzal.png" width="100"/> | <img src="https://github.com/Haris-Mughal.png" width="100"/> |
+|:--:|:--:|:--:|:--:|
+| [Ali Jafar](https://github.com/alijafarkamal) | [Zohaib Shahid](https://github.com/zohaib-7035) | [Noor Fatima](https://github.com/Noor-Fatima-Afzal) | [Haris Mughal](https://github.com/Haris-Mughal) |
+
+
+---
+
 ## 🧠 Project Overview
 
 ### 🎯 Purpose
@@ -17,17 +26,6 @@ Make **early diabetes risk prediction** and **preventive education** accessible 
 
 ### 🛠️ Technologies
 `Python`, `Streamlit`, `AgentPro`, `Scikit-learn (SVM)`, `Ares API`, `YouTube Data API`
-
----
-
-## Our Team:
-
-| <img src="https://github.com/alijafarkamal.png" width="100"/> | <img src="https://github.com/zohaib-7035.png" width="100"/> | <img src="https://github.com/Noor-Fatima-Afzal.png" width="100"/> | <img src="https://github.com/Haris-Mughal.png" width="100"/> |
-|:--:|:--:|:--:|:--:|
-| [Ali Jafar](https://github.com/alijafarkamal) | [Zohaib Shahid](https://github.com/zohaib-7035) | [Noor Fatima](https://github.com/Noor-Fatima-Afzal) | [Haris Mughal](https://github.com/Haris-Mughal) |
-
-
----
 
 ## ⚙️ Setup Instructions
 
